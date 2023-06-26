@@ -15,8 +15,8 @@ res = r.text
 
 email_sender = "justinweatherapp@gmail.com"
 email_password = os.getenv('EMAIL_PASS')
-# email_receiver = "lgreenbaum1214@gmail.com"
-email_receiver = "justinjagoss@gmail.com"
+email_receiver = "lgreenbaum1214@gmail.com"
+# email_receiver = "justinjagoss@gmail.com"
 
 subject = "Test of weather app"
 body = res
